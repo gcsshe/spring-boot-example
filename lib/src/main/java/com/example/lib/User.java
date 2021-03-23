@@ -1,5 +1,11 @@
 package com.example.lib;
 
+import org.springframework.stereotype.Component;
+
+/**
+ * @author gcsshe
+ */
+@Component
 public class User {
     String name;
     int age;
